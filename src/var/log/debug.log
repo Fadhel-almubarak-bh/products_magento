@@ -13802,3 +13802,440 @@ Stack trace:
 [2025-05-29T15:58:37.989644+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/admin/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
 [2025-05-29T15:58:38.015284+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/admin/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
 [2025-05-29T15:58:38.151868+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:42:31.050930+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051339+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051394+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051460+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051536+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051619+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051696+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051771+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051864+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.051937+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052008+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052104+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052178+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052238+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052302+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052376+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052548+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052661+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:31.052866+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.052924+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.052964+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.053001+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.053060+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-05-29T16:42:31.053131+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.053177+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:31.053231+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-05-29T16:42:52.593728+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594238+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594322+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594367+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594435+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594492+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594534+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594599+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594652+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594703+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594752+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594801+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594852+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594902+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.594954+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.595144+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.595417+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.595510+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:42:52.595631+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.595706+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.595844+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.595929+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.596193+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-05-29T16:42:52.596396+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.596508+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:42:52.596622+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-05-29T16:43:21.396376+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.396692+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.396806+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.396898+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.396992+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397041+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397077+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397115+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397150+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397186+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397221+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397256+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397290+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397324+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397358+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397394+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397500+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397547+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-05-29T16:43:21.397617+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397658+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397698+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397734+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397768+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-05-29T16:43:21.397820+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397859+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-05-29T16:43:21.397903+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-05-29T16:44:14.811772+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/admin/dashboard/index/key/fd6df7924fdca986f028648d5efeca119c39a7cef63f5d75d35d8bb9411fa203/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingAnyTag"}} []
+[2025-05-29T16:44:14.826807+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/admin/dashboard/index/key/fd6df7924fdca986f028648d5efeca119c39a7cef63f5d75d35d8bb9411fa203/","invalidateInfo":{"tags":["PB_EDITOR_CONFIG","CONFIG"],"mode":"matchingTag"}} []
+[2025-05-29T16:44:23.005685+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:45:22.711248+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:45:39.531756+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:45:45.680555+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:45:46.013848+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-05-29T16:45:46.014122+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2025-05-29T16:46:00.839276+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:46:21.366353+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:46:33.331547+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:50:10.893067+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:50:13.314586+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:50:14.390063+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:54:18.418359+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:54:43.064663+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/theme/design_config/save/key/c64eb71c1c28badfb3e3d8f09a8f6d1a264e0608abbf9a2e2a04c68a10b1e6b4/","invalidateInfo":{"tags":["gql_store_config_1","FPC"],"mode":"matchingTag"}} []
+[2025-05-29T16:54:43.100776+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/theme/design_config/save/key/c64eb71c1c28badfb3e3d8f09a8f6d1a264e0608abbf9a2e2a04c68a10b1e6b4/","invalidateInfo":{"tags":["robots"],"mode":"matchingAnyTag"}} []
+[2025-05-29T16:54:43.114620+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/theme/design_config/save/key/c64eb71c1c28badfb3e3d8f09a8f6d1a264e0608abbf9a2e2a04c68a10b1e6b4/","invalidateInfo":{"tags":["gql_store_config_1","FPC"],"mode":"matchingTag"}} []
+[2025-05-29T16:54:43.309092+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:55:04.498549+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:55:14.232228+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"https://magento.test/admin/admin/cache/flushSystem/key/e40f5984438cbbf20a28cf15273df9fd3fb26dd9792f14ca0ba6734ae92eb463/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2025-05-29T16:55:14.234214+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"https://magento.test/admin/admin/cache/flushSystem/key/e40f5984438cbbf20a28cf15273df9fd3fb26dd9792f14ca0ba6734ae92eb463/","invalidateInfo":{"tags":[],"mode":"all"}} []
+[2025-05-29T16:55:14.235002+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"https://magento.test/admin/admin/cache/flushSystem/key/e40f5984438cbbf20a28cf15273df9fd3fb26dd9792f14ca0ba6734ae92eb463/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2025-05-29T16:55:20.005942+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:55:20.041007+00:00] main.DEBUG: Item Magento_Backend::system_currency was removed [] []
+[2025-05-29T16:55:20.042833+00:00] main.DEBUG: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2025-05-29T16:55:20.042922+00:00] main.DEBUG: Add of item with id Magento_Theme::design_config was processed [] []
+[2025-05-29T16:55:20.042950+00:00] main.DEBUG: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2025-05-29T16:55:20.042971+00:00] main.DEBUG: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2025-05-29T16:55:20.042998+00:00] main.DEBUG: Add of item with id Magento_Backend::system_store was processed [] []
+[2025-05-29T16:55:20.043018+00:00] main.DEBUG: Add of item with id Magento_Backend::dashboard was processed [] []
+[2025-05-29T16:55:20.043037+00:00] main.DEBUG: Add of item with id Magento_Backend::system was processed [] []
+[2025-05-29T16:55:20.043060+00:00] main.DEBUG: Add of item with id Magento_Backend::system_tools was processed [] []
+[2025-05-29T16:55:20.043086+00:00] main.DEBUG: Add of item with id Magento_Backend::system_design was processed [] []
+[2025-05-29T16:55:20.043106+00:00] main.DEBUG: Add of item with id Magento_Backend::system_convert was processed [] []
+[2025-05-29T16:55:20.043130+00:00] main.DEBUG: Add of item with id Magento_Backend::system_cache was processed [] []
+[2025-05-29T16:55:20.043149+00:00] main.DEBUG: Add of item with id Magento_Backend::marketing was processed [] []
+[2025-05-29T16:55:20.043173+00:00] main.DEBUG: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2025-05-29T16:55:20.043193+00:00] main.DEBUG: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2025-05-29T16:55:20.043211+00:00] main.DEBUG: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2025-05-29T16:55:20.043227+00:00] main.DEBUG: Add of item with id Magento_Backend::content was processed [] []
+[2025-05-29T16:55:20.043244+00:00] main.DEBUG: Add of item with id Magento_Backend::content_elements was processed [] []
+[2025-05-29T16:55:20.043260+00:00] main.DEBUG: Add of item with id Magento_Backend::stores was processed [] []
+[2025-05-29T16:55:20.043282+00:00] main.DEBUG: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2025-05-29T16:55:20.043302+00:00] main.DEBUG: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2025-05-29T16:55:20.043320+00:00] main.DEBUG: Add of item with id Magento_Backend::other_settings was processed [] []
+[2025-05-29T16:55:20.043347+00:00] main.DEBUG: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2025-05-29T16:55:20.043363+00:00] main.DEBUG: Add of item with id Magento_Config::system_config was processed [] []
+[2025-05-29T16:55:20.043379+00:00] main.DEBUG: Add of item with id Magento_User::system_acl was processed [] []
+[2025-05-29T16:55:20.043401+00:00] main.DEBUG: Add of item with id Magento_User::system_acl_users was processed [] []
+[2025-05-29T16:55:20.043420+00:00] main.DEBUG: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2025-05-29T16:55:20.043437+00:00] main.DEBUG: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2025-05-29T16:55:20.043453+00:00] main.DEBUG: Add of item with id Magento_Customer::customer was processed [] []
+[2025-05-29T16:55:20.043475+00:00] main.DEBUG: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2025-05-29T16:55:20.043494+00:00] main.DEBUG: Add of item with id Magento_Customer::customer_online was processed [] []
+[2025-05-29T16:55:20.043510+00:00] main.DEBUG: Add of item with id Magento_Customer::customer_group was processed [] []
+[2025-05-29T16:55:20.043526+00:00] main.DEBUG: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2025-05-29T16:55:20.043542+00:00] main.DEBUG: Add of item with id Magento_Indexer::system_index was processed [] []
+[2025-05-29T16:55:20.043561+00:00] main.DEBUG: Add of item with id Magento_Variable::system_variable was processed [] []
+[2025-05-29T16:55:20.043584+00:00] main.DEBUG: Add of item with id Magento_Cms::cms_page was processed [] []
+[2025-05-29T16:55:20.043603+00:00] main.DEBUG: Add of item with id Magento_Cms::cms_block was processed [] []
+[2025-05-29T16:55:20.043621+00:00] main.DEBUG: Add of item with id Magento_Catalog::catalog was processed [] []
+[2025-05-29T16:55:20.043643+00:00] main.DEBUG: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2025-05-29T16:55:20.043662+00:00] main.DEBUG: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2025-05-29T16:55:20.043685+00:00] main.DEBUG: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2025-05-29T16:55:20.043704+00:00] main.DEBUG: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2025-05-29T16:55:20.043727+00:00] main.DEBUG: Add of item with id Magento_Catalog::inventory was processed [] []
+[2025-05-29T16:55:20.043746+00:00] main.DEBUG: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2025-05-29T16:55:20.043769+00:00] main.DEBUG: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2025-05-29T16:55:20.043794+00:00] main.DEBUG: Add of item with id Magento_Search::search_terms was processed [] []
+[2025-05-29T16:55:20.043812+00:00] main.DEBUG: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2025-05-29T16:55:20.043830+00:00] main.DEBUG: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2025-05-29T16:55:20.043852+00:00] main.DEBUG: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2025-05-29T16:55:20.043870+00:00] main.DEBUG: Add of item with id Magento_Sales::sales was processed [] []
+[2025-05-29T16:55:20.043893+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2025-05-29T16:55:20.043917+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_order was processed [] []
+[2025-05-29T16:55:20.043935+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2025-05-29T16:55:20.043952+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2025-05-29T16:55:20.043969+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2025-05-29T16:55:20.043985+00:00] main.DEBUG: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2025-05-29T16:55:20.044000+00:00] main.DEBUG: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2025-05-29T16:55:20.044021+00:00] main.DEBUG: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2025-05-29T16:55:20.044044+00:00] main.DEBUG: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2025-05-29T16:55:20.044067+00:00] main.DEBUG: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2025-05-29T16:55:20.044086+00:00] main.DEBUG: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2025-05-29T16:55:20.044103+00:00] main.DEBUG: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2025-05-29T16:55:20.044126+00:00] main.DEBUG: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2025-05-29T16:55:20.044145+00:00] main.DEBUG: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2025-05-29T16:55:20.044162+00:00] main.DEBUG: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2025-05-29T16:55:20.044185+00:00] main.DEBUG: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2025-05-29T16:55:20.044208+00:00] main.DEBUG: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2025-05-29T16:55:20.044227+00:00] main.DEBUG: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2025-05-29T16:55:20.044249+00:00] main.DEBUG: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2025-05-29T16:55:20.044268+00:00] main.DEBUG: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2025-05-29T16:55:20.044285+00:00] main.DEBUG: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2025-05-29T16:55:20.044307+00:00] main.DEBUG: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2025-05-29T16:55:20.044331+00:00] main.DEBUG: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2025-05-29T16:55:20.044349+00:00] main.DEBUG: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2025-05-29T16:55:20.044366+00:00] main.DEBUG: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2025-05-29T16:55:20.044382+00:00] main.DEBUG: Add of item with id Magento_Email::template was processed [] []
+[2025-05-29T16:55:20.044398+00:00] main.DEBUG: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2025-05-29T16:55:20.044420+00:00] main.DEBUG: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2025-05-29T16:55:20.044438+00:00] main.DEBUG: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2025-05-29T16:55:20.044455+00:00] main.DEBUG: Add of item with id Magento_Reports::report was processed [] []
+[2025-05-29T16:55:20.044471+00:00] main.DEBUG: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2025-05-29T16:55:20.044487+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2025-05-29T16:55:20.044509+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2025-05-29T16:55:20.044527+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2025-05-29T16:55:20.044544+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2025-05-29T16:55:20.044560+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2025-05-29T16:55:20.044575+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2025-05-29T16:55:20.044591+00:00] main.DEBUG: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2025-05-29T16:55:20.044606+00:00] main.DEBUG: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2025-05-29T16:55:20.044622+00:00] main.DEBUG: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2025-05-29T16:55:20.044640+00:00] main.DEBUG: Add of item with id Magento_Reports::report_products was processed [] []
+[2025-05-29T16:55:20.044655+00:00] main.DEBUG: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2025-05-29T16:55:20.044671+00:00] main.DEBUG: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2025-05-29T16:55:20.044686+00:00] main.DEBUG: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2025-05-29T16:55:20.044705+00:00] main.DEBUG: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2025-05-29T16:55:20.044744+00:00] main.DEBUG: Add of item with id Magento_Reports::report_customers was processed [] []
+[2025-05-29T16:55:20.044780+00:00] main.DEBUG: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2025-05-29T16:55:20.044802+00:00] main.DEBUG: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2025-05-29T16:55:20.044821+00:00] main.DEBUG: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2025-05-29T16:55:20.044839+00:00] main.DEBUG: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2025-05-29T16:55:20.044862+00:00] main.DEBUG: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2025-05-29T16:55:20.044882+00:00] main.DEBUG: Add of item with id Magento_Search::report_search_term was processed [] []
+[2025-05-29T16:55:20.044900+00:00] main.DEBUG: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2025-05-29T16:55:20.044917+00:00] main.DEBUG: Add of item with id Magento_Marketplace::partners was processed [] []
+[2025-05-29T16:55:20.044933+00:00] main.DEBUG: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2025-05-29T16:55:20.044966+00:00] main.DEBUG: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2025-05-29T16:55:20.044987+00:00] main.DEBUG: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2025-05-29T16:55:20.045005+00:00] main.DEBUG: Add of item with id Magento_PaymentServicesDashboard::paymentservicesdashboard was processed [] []
+[2025-05-29T16:55:20.045024+00:00] main.DEBUG: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2025-05-29T16:55:20.045041+00:00] main.DEBUG: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2025-05-29T16:55:20.045058+00:00] main.DEBUG: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2025-05-29T16:55:20.045083+00:00] main.DEBUG: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2025-05-29T16:55:20.045103+00:00] main.DEBUG: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2025-05-29T16:55:20.045121+00:00] main.DEBUG: Add of item with id Magento_Review::report_review was processed [] []
+[2025-05-29T16:55:20.045143+00:00] main.DEBUG: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2025-05-29T16:55:20.045162+00:00] main.DEBUG: Add of item with id Magento_Review::report_review_product was processed [] []
+[2025-05-29T16:55:20.045179+00:00] main.DEBUG: Add of item with id Magento_ServicesId::configuration was processed [] []
+[2025-05-29T16:55:20.045201+00:00] main.DEBUG: Add of item with id Magento_ServicesId::services_id was processed [] []
+[2025-05-29T16:55:20.045220+00:00] main.DEBUG: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2025-05-29T16:55:20.045238+00:00] main.DEBUG: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2025-05-29T16:55:20.045254+00:00] main.DEBUG: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2025-05-29T16:55:20.045282+00:00] main.DEBUG: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2025-05-29T16:55:20.045307+00:00] main.DEBUG: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2025-05-29T16:55:20.045331+00:00] main.DEBUG: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2025-05-29T16:55:20.045352+00:00] main.DEBUG: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2025-05-29T16:55:20.045371+00:00] main.DEBUG: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2025-05-29T16:55:20.045387+00:00] main.DEBUG: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2025-05-29T16:55:28.449964+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:55:29.883155+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:59:12.526242+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:59:18.560111+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:59:19.570244+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:59:23.909737+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T16:59:50.967621+00:00] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://magento.test/admin/theme/design_config/save/key/c64eb71c1c28badfb3e3d8f09a8f6d1a264e0608abbf9a2e2a04c68a10b1e6b4/back/edit","invalidateInfo":{"tags":["robots"],"mode":"matchingAnyTag"}} []
+[2025-05-29T16:59:51.127765+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:01:07.069760+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:01:18.772901+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:01:20.198256+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:01:43.941524+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:01:47.880242+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-05-29T17:03:08.378314+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.378526+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.378622+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.378698+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.378757+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.378795+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:08.455717+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:03:08.702221+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:03:14.700272+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.700428+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.700519+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.700563+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.700595+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.700622+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:14.723568+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:03:14.840317+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:03:25.104232+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.104384+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.104479+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.104521+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.104551+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.104577+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:03:25.126744+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:03:25.240344+00:00] main.ERROR: The XML in file "/var/www/html/app/design/frontend/Magento/luma_child/etc/view.xml" is invalid:
+Element 'image', attribute 'width': The attribute 'width' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Element 'image', attribute 'height': The attribute 'height' is not allowed.
+Line: 5
+The xml was: 
+0:<?xml version="1.0"?>
+1:<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+2:    <media>
+3:        <images module="Magento_Catalog">
+4:            <image id="product_page_image_medium" type="image" width="700" height="700"/>
+5:        </images>
+6:    </media>
+7:</view>
+8:
+
+Verify the XML and try again. [] []
+[2025-05-29T17:06:32.068265+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.068452+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.068590+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.068650+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.068690+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.068727+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2025-05-29T17:06:32.120519+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-05-29T17:07:08.237893+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-05-29T17:07:11.786771+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
