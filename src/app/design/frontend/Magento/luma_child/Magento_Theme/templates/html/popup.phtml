@@ -1,0 +1,22 @@
+<div style="background: yellow; color: black; padding: 10px; text-align: center; font-weight: bold;">VISIBLE TEST: popup.phtml is loaded</div>
+<!-- TEST: This is a test message from popup.phtml -->
+<div id="custom-popup" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);z-index:9999;align-items:center;justify-content:center;">
+    <div style="background:#23272a;padding:2rem 3rem;border-radius:10px;box-shadow:0 2px 20px #000;max-width:90vw;max-height:90vh;color:#fff;">
+        <h2>Welcome to Our Store!</h2>
+        <p>This is a custom popup shown on every page except category pages.</p>
+        <button id="close-popup" style="margin-top:1rem;padding:0.5rem 1.5rem;background:#4fd1c5;color:#23272a;border:none;border-radius:5px;cursor:pointer;">Close</button>
+    </div>
+</div>
+<script>
+    console.log('popup script loaded');
+    document.addEventListener('DOMContentLoaded', function() {
+        if (!window.location.pathname.match(/\/category\//)) {
+            var popup = document.getElementById('custom-popup');
+            if (popup) popup.style.display = 'flex';
+        }
+        var closeBtn = document.getElementById('close-popup');
+        if (closeBtn) closeBtn.onclick = function() {
+            document.getElementById('custom-popup').style.display = 'none';
+        };
+    });
+</script> 

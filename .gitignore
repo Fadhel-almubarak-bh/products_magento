@@ -1,0 +1,75 @@
+# ----------------------------------------
+# Magento 2 core and generated files
+# ----------------------------------------
+/src/app/etc/env.php
+/src/app/etc/config.php
+/src/vendor/
+/src/generated/**
+/src/dev/
+/src/vendor/
+/src/var/*
+/src/var/log/**
+/src/pub/static/*
+!/src/pub/static/.htaccess
+/src/pub/media/*
+!/src/pub/media/.htaccess
+/src/var/
+/setup*/  
+/update*/  
+
+# ----------------------------------------
+# Composer & node
+# ----------------------------------------
+/composer.lock
+/composer.phar
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# ----------------------------------------
+# Docker & environment
+# ----------------------------------------
+.env
+.env.local
+.env.*.local
+docker-compose.override.yml
+docker-sync.yml
+docker-compose.*.yml
+/docker/
+
+# ----------------------------------------
+# IDE & Editor
+# ----------------------------------------
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# ----------------------------------------
+# OS files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Logs, caches, and backups
+# ----------------------------------------
+*.log
+*.cache
+*.bak
+*.swp
+
+# ----------------------------------------
+# PHPUnit, Code Coverage, etc.
+# ----------------------------------------
+/phpunit.xml
+/phpunit.xml.dist
+/var/report/
+/var/log/
+/coverage/
+src/var/log/debug.log
+src/var/log/system.log
+src/var/view_preprocessed/pub/static/frontend/Magento/luma/en_US/css/email-inline.css
+src/var/view_preprocessed/*

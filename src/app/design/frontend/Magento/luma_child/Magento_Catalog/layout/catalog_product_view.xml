@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Remove related products from sidebar -->
+        <referenceContainer name="content.aside">
+            <referenceBlock name="catalog.product.related" remove="true" />
+        </referenceContainer>
+        <!-- Add related products as a new tab -->
+        <referenceBlock name="product.info.details">
+            <block class="Magento\Catalog\Block\Product\ProductList\Related"
+                   name="catalog.product.related.tab"
+                   template="Magento_Catalog::product/list/items.phtml"
+                   group="detailed_info">
+                <arguments>
+                    <argument name="title" xsi:type="string" translate="true">Related Products</argument>
+                    <argument name="type" xsi:type="string">related</argument>
+                    <argument name="view_model" xsi:type="object">Magento\Catalog\ViewModel\Product\Listing\PreparePostData</argument>
+                    <argument name="sort_order" xsi:type="string">30</argument>
+                </arguments>
+                <block class="Magento\Catalog\Block\Product\ProductList\Item\Container" name="related.product.addto" as="addto">
+                    <block class="Magento\Catalog\Block\Product\ProductList\Item\AddTo\Compare"
+                           name="related.product.addto.compare" as="compare"
+                           template="Magento_Catalog::product/list/addto/compare.phtml"/>
+                </block>
+            </block>
+            <!-- Debug test tab using Related block class -->
+            <block class="Magento\Catalog\Block\Product\ProductList\Related"
+                   name="debug.test.tab"
+                   template="Magento_Catalog::product/list/debug_test_tab.phtml"
+                   group="detailed_info">
+                <arguments>
+                    <argument name="title" xsi:type="string">Related Products</argument>
+                    <argument name="type" xsi:type="string">related</argument>
+                    <argument name="sort_order" xsi:type="string">99</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page> 
